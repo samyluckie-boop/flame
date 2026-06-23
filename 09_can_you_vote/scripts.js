@@ -1,17 +1,22 @@
 // Instructions in the CSS
 
-fuction checkAge = 
-  let age = document.getElement("ageBox").value;
+function checkAge() {
+  let message = "";
+  let age = document.getElementById("ageBox").value;
 
-  when age >= 18 {
+  if (age == ""){
+    message = "Please enter an age!";
+  } else if (age > 100){
+    message = "You're a living legend!";
+  } else if (age < 0){
+    message = "You're a time traveller!";
+  } else if (age >= 18){
     message = "You can vote!";
-  } else if age >= 16 {
+  } else if (age >= 16){
     message = "You can pre-enrol.";
   } else {
-    mesage = "Sorry, you can't register yet.";
+    message = "Sorry, you can't register yet.";
   }
-
-  doccument.getelementbyid("#results").internalhtml = message;
-
-
-document.getElementID("submit").onClick = checkAge
+  document.getElementById("results").innerText = message;
+}
+document.getElementById("submit").onclick = checkAge

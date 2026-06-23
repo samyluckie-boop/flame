@@ -5,16 +5,20 @@ when a button is clicked. Every $10 matters!
 
 🟡 PREDICT  
 What will the total be after 3 clicks?
+$30
 What happens when you reach $50? $100?
+It says 'We've hit our first campaign milestone!'
 
 🟢 RUN  
 Click the “Give $10” button a few times and see what changes on the page.
 
 🔵 INVESTIGATE  
 - What variable is keeping track of the total?
+totalDonations
 - Where is it being updated?
+totalDisplay
 - How does the code decide which message to show?
-
+Based on the if statement
 🟠 MODIFY  
 - Add a **Refund $10** button that subtracts from the total.
 - Stop the total from going below $0.

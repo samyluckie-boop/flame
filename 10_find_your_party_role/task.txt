@@ -6,8 +6,9 @@ This task uses two input types you haven't worked with yet:
 
 🟡 PREDICT  
 What will happen if you pick Progressive and tick Environment?  
+it will print which team you suit in
 What if you tick everything?
-
+It will print which team you suit in
 🟢 RUN  
 Try different combinations and see which role the system suggests.
 

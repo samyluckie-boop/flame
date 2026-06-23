@@ -10,9 +10,12 @@ Some are broken logic. Some are things JavaScript doesn’t even allow.
 
 🟡 PREDICT  
 Before you even run it:  
-- What stands out as broken?  
+- What stands out as broken? 
+line 3, 'fuction' incorrect spelling 
 - What do you think will happen when you try it?
+the button wont click
 - What do you think *should* happen?
+it should allow you to enter an age and when the button is clicked it should work
 
 🟢 RUN  
 Try entering an age and clicking the button.
