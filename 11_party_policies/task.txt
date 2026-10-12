@@ -13,6 +13,7 @@ Click “Show Policies” and see what appears in the list.
 🔵 INVESTIGATE  
 - What is `i` doing?
 - What does `policies[i]` refer to?
+indexing the (numberth) thing
 - What happens if we add a new item to the array?
 
 🟠 MODIFY  

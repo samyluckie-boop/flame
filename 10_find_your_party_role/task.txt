@@ -6,15 +6,19 @@ This task uses two input types you haven't worked with yet:
 
 🟡 PREDICT  
 What will happen if you pick Progressive and tick Environment?  
-it will print which team you suit in
+"🌱 You’d be perfect for the Outreach Team."
 What if you tick everything?
-It will print which team you suit in
+
 🟢 RUN  
 Try different combinations and see which role the system suggests.
 
 🔵 INVESTIGATE  
 - How is the selected radio button being read?
+'<label><input type="radio" name="alignment" value="progressive"> Progressive</label><br>
+<label><input type="radio" name="alignment" value="moderate"> Moderate</label><br>
+<label><input type="radio" name="alignment" value="traditional"> Traditional</label><br>'
 - What does the loop over checkboxes do?
+
 - What is the `includes` function doing?
 - What are the || and the && symbols doing?
 
